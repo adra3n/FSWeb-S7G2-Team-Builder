@@ -35,13 +35,13 @@ function App() {
     setTeamList([...teamList, e]);
   };
 
-  const editMember = (e) => {
-    setDuzenlenecekUye([...duzenlenecekUye, e]);
-  };
+  // const editMember = (e) => {
+  //   setDuzenlenecekUye([...duzenlenecekUye, e]);
+  // };
 
-  useEffect(() => {
-    console.log(duzenlenecekUye);
-  }, [duzenlenecekUye]);
+  // useEffect(() => {
+  //   console.log(duzenlenecekUye);
+  // }, [duzenlenecekUye]);
 
   return (
     <div className="App" style={{ textAlign: 'center', background: "#3A98B9", padding: "30px", boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" }} >

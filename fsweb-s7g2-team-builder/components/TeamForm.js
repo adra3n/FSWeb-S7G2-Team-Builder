@@ -18,7 +18,7 @@ const TeamForm = ({ addMember }) => {
     });
 
     const changeHandler = (e) => {
-        setTeamMember({ ...teamMember, editMember });
+        setTeamMember({ ...teamMember, [e.target.name]: e.target.value });
     };
 
     const submitHandler = (e) => {
