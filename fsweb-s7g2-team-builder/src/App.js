@@ -29,7 +29,7 @@ function App() {
   ];
 
   const [teamList, setTeamList] = useState(list);
-  const [duzenlenecekUye, setDuzenlenecekUye] = useState([]);
+  // const [duzenlenecekUye, setDuzenlenecekUye] = useState([]);
 
   const addMember = (e) => {
     setTeamList([...teamList, e]);
