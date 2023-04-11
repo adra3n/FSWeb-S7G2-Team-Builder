@@ -45,7 +45,7 @@ function App() {
 
   return (
     <div className="App" style={{ textAlign: 'center', background: "#3A98B9", padding: "30px", boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" }} >
-      <TeamForm addMember={addMember} editMember={editMember} />
+      <TeamForm addMember={addMember} />
       <div className="memberCard" style={{ padding: "30px" }}>
         {teamList.map((e, i) => {
           return <div style={{ textAlign: 'center', background: "#EEEEEE", padding: "30px", boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" }} key={i} className='m-5'>
